@@ -3,9 +3,9 @@ import './style.css';
 
 let pausa: number = 0;
 let tempo: number = 1;
-let ciclo = 1;
+let ciclo = 8;
 let relogio = 0
-let time = -1;
+let time = 0;
 let cronometro = document.getElementById("cronometro");
 let ciclos =  document.getElementById("ciclo")
 let body = document.getElementById('tabata');
@@ -24,10 +24,11 @@ function cronometro_exercicio(){
 
     if(tempo >= 21){
       body.style.backgroundColor = 'green';
-      cronometro.innerHTML = `Descanse ${tempo-1}`
+      // cronometro.innerHTML = `Descanse ${tempo-1}`
+      // ciclos.innerHTML = `Ciclo 0${ciclo -1}`;  
     }
-    if(tempo == 30){
-      tempo = 0;
+    if(tempo == 31){
+      tempo = 1;
     }
   }, 1000)
 
