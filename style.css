@@ -1,32 +1,42 @@
-body, html{
-  margin: 0;
-  width: 100%;
+body,
+html {
+  /* margin: 0; */
 }
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
 }
 
-h1{
+h1 {
   font-size: 80px;
 }
 
-#app{
-
+#app {
   height: auto;
-  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
   border: 1px solid black;
 }
 
-.cronometro{
-margin: 1% 45%;
-width: 45%;
+
+button {
+  margin-bottom: 10%;
+  font-size: 16px; 
 }
 
-button{
-  width: 15%;
-  font-size: 16px;
+.about{
+  margin: 1%;
+  width: 98%;
+  background-color: rgba(0, 90, 194, 0.973);
+  border: 1px solid black;
+  border-radius: 2%;
+  color: white;
 }
-.botao{
-  margin: 1% 50%;
-  width: 35%;
+
+.about > h3,p{
+  margin: 2%;
 }
