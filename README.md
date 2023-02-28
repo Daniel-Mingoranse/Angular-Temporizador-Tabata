@@ -1,4 +1,3 @@
 Sistema de cronômetro utilizando conceito Typescript, HTML e CSS por meio da IDE StackBlitz
 
-Como Funciona Tabata?
-É um cronômetro já programado com o protocolo Tabata que te avisa (com um alarme) quando começar a série e quando descansar, sem você precisar ficar a todo momento desviando sua atenção à um relógio ou cronômetro comum, possibilitando foco durante a execução e assim um melhor resultado.
+![image](https://user-images.githubusercontent.com/50594387/221944667-abe2df84-32b6-4fbc-b389-2fd5fc597244.png)
